@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+#my-scrollbar{
+    height: 100vh;
+    position: relative;
+    overflow: hidden!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+.scrollbar-track-y{
+    background: transparent!important;
+}
+.scrollbar-thumb{
+    background: transparent!important;
+}
+
+.header{
+    width: 100%;
+    height: 116px;
+    z-index: 9999;
+    position: relative;
+}
+.header .warp{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.header .warp .logo{
+    width: 281px;
+    height: 69px;
+}
+.header .warp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header .warp ul{
+    display: flex;
+}
+.header .warp ul .tit_i1{
+    width: 100px;
+    height: 100%;
+    line-height: 116px;
+    text-align: center;
+    position: relative;
+}
+.header .warp ul .tit_i1 a{
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+}
+.header .warp ul .tit_i1 .xian{
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.header .warp ul .tit_i1 .xian{
+    font-size: 14px;
+    width: 320px;
+    background-color: rgba(0, 95, 92, 1);
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.header .warp ul .tit_i1 .xian li{
+    background-color: rgb(216 106 49);
+    font-weight: normal;
+    height: 40px;
+    padding: 0;
+    width: 320px;
+    line-height: 40px;
+}
+.header .warp ul .tit_i1 .xian li a{
+    color: white;
+}
+.foot{
+    width: 100%;
+    height: auto;
+    background: #fafafa;
+}
+.foot .foot-warp{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+}
+.foot .foot-warp{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.foot .foot-warp .foot-top{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.foot .foot-warp .foot-top span{
+    font-size: 35px;
+    font-weight: 600;
+}
+.foot .foot-warp .foot-top p{
+    color: #878787;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.foot .foot-warp .foot-top .input{
+    display: flex;
+    justify-content: center;
+}
+.foot .foot-warp .foot-top .input input{
+    width: 480px;
+    height: 37px;
+    text-indent: 10px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.foot .foot-warp .foot-top .input a{
+    width: 110px;
+    height: 40px;
+    display: block;
+    background: #000;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s;
+    font-size: 14px;
+}
+.foot .foot-warp .foot-top .input a:hover{
+    color: #000;
+    background: #ffec3c;
+}
+.foot .foot-warp .foot-bo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot .foot-warp .foot-bo div{
+    display: flex;
+    flex-direction: column;
+}
+.foot .foot-warp .foot-bo div a{
+    font-size: 12px;
+    color: #000;
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+}
+.foot .foot-warp .foot-bo div a img{
+    margin-right:5px;
+}
+.foot .foot-warp .foot-bo div a:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.foot .foot-warp .foot-bo div a:nth-child(1):after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: rgba(0,0,0,.1);
+    bottom: 0px;
+    left: 0px;
+}
+.fixed{
+    position: fixed;
+    bottom: 106px;
+    right: 20px;
+    z-index: 9999999;
+
+}
+.fixed a{
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: white;
+
+}
+.fixed a i{
+    font-size: 16px;
+    color: #ccc;
+    transition: 1s;
+}
+.fixed a:hover i{
+    color: red;
+}
+.fixed a.top{
+    background: red;
+    box-shadow: 0px 0px 17px -3px #fff;
+
+}
+.fixed a.chat{
+    background: #03a84e;
+    position: absolute;
+}
+.fixed a.chat .chat-1{
+    width: 410px;
+    height: 500px;
+    position: absolute;
+    top: -460px;
+    left: -410px;
+    border-radius: 10px;
+    display: none;
+}
+.fixed a.chat .chat-1 .top{
+    background: #03a84e;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+}
+.fixed a.chat .chat-1 .top span{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.fixed a.chat .chat-1 .bottom{
+    background: #9a9898;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.fixed a.chat .chat-1 form{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    height: 70%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: space-around;
+}
+.fixed a.chat .chat-1 form input{
+    width: 100%;
+    height: 40px;
+    text-indent: 10px;
+}
+ .fixed a.chat .chat-1 form input.sub{
+    background: #03a84e;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+.header .warp ul .tit_i1 .xian li a{
+    position: relative;
+}
+.header .warp ul .tit_i1 .xian li a:after{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    transition: 1s;
+}
+.header .warp ul .tit_i1 .xian li:hover a:after{
+    width: 100%;
+}

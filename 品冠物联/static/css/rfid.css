@@ -1,0 +1,88 @@
+.banner{
+    width: 100%;
+    height: 800px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec1{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+}
+.sec1 .sec1-top{
+    width: 1000px;
+    margin:80px auto;
+}
+.sec1 .sec1-top span{
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.sec1 .sec1-top span:after{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: rgb(254,157,0);
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -40px;
+}
+.sec1 .sec1-top p{
+    font-size: 16px;
+    line-height: 40px;
+}
+.sec1 .sec1-bo{
+    width: 100%;
+    height: auto;
+    background: rgb(238,238,238);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sec1 .sec1-bo .sec1-bo1{
+    width: 380px;
+    height: 200px;
+    background: red;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.sec1 .sec1-bo .sec1-bo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.sec1 .sec1-bo .sec1-bo1 span{
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    z-index: 999;
+}
+.sec1 .sec1-bo .sec1-bo1:hover img{
+    transform: scale(1.1);
+}
+.sec1 .sec1-bo .sec1-bo1:nth-child(1){
+    margin-left: 410px;
+}
+.sec1 .sec1-bo .sec1-bo1:after{
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: 157px;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transform: rotate(-51deg);
+}

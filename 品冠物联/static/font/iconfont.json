@@ -1,0 +1,37 @@
+{
+  "id": "3095540",
+  "name": "品冠",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "742540",
+      "name": "linkedIn",
+      "font_class": "linkedin",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "6626165",
+      "name": "Facebook",
+      "font_class": "Facebook",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "12579338",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "14401834",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    }
+  ]
+}

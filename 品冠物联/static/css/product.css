@@ -1,0 +1,247 @@
+.banner{
+    width: 100%;
+    height: 800px;
+}
+.header{
+    background: white;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec1{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    background: white;
+    padding: 60px 0px;
+}
+.sec1 .left{
+    width: 140px;
+    padding-left: 60px;
+}
+.sec1 .left ul{
+    display: flex;
+    flex-direction: column;
+}
+.sec1 .left li{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    margin: 0px 4px 0px 0px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+.sec1 .left li:after{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 1px;
+    background: #EFBC1B;
+    content: "";
+    opacity: 0;
+}
+.sec1 .left li:hover{
+    transform: scale(1.1);
+    color: #EFBC1B;
+}
+.sec1 .left li:hover:after{
+    opacity: 1;
+}
+.sec1 .left .sel{
+    transform: scale(1.1);
+    color: #EFBC1B;
+}
+.sec1 .left .sel:after{
+    opacity: 1;
+}
+
+body{
+    background: rgb(227,233,234);
+}
+
+.sec1 .right{
+    width: 1000px;
+    display: flex;
+}
+.sec1 .swiper-slide{
+    opacity: 0;
+    transition: 1s;
+}
+.sec1 .swiper-slide-active{
+    opacity: 1;
+}
+
+.sec1 .right .word{
+    width: 600px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.sec1 .right .word p{
+    line-height: 35px;
+}
+.sec1 .right .word span{
+    display: block;
+    line-height: 1.8em;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sec1 .right .word a{
+    width: 148px;
+    height: 40px;
+    background: #000000;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    transition: 0.6s;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    position: relative;
+}
+.sec1 .right .word a:hover{
+    color: black;
+    background: white;
+}
+.sec1 .right .word a svg{
+    position: absolute;
+    top: 99%;
+    left: 96%;
+    width: 46px;
+    height: 29px;
+}
+.sec1 .right .img{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+.sec1 .right .img img{
+    width: 100%;
+    height: auto;
+}
+.sec2{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    background: white;
+    border-bottom:1px solid #000;
+
+}
+.warp{
+    width: 1200px;
+    margin: 80px auto;
+}
+.sec2-warp{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    padding:50px 0px;
+}
+.sec2 span.W{
+    color: #292929;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+}
+.sec2 .after{
+    position: absolute;
+    top: 51px;
+    left: -25px;
+    width: 50px;
+    height: 41px;
+    background: rgb(239,188,27);
+    z-index: 0;
+}
+.sec2 span{
+    color: #292929;
+    font-size: 28px;
+    font-weight: bold;
+}
+.sec2 p{
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 68px;
+}
+.sec2 .sec2-warp .div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.sec2 .sec2-warp .div .d1{
+    background: rgb(42,143,104);
+    height: 13px;
+    width: 13px;
+
+}
+.sec2 .sec2-warp .div .d1:nth-child(2){
+    width: 12px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+.sec2 .sec2-warp .div .d1:nth-child(3){
+    width: 15px;
+}
+.sec3{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    background: white;
+    padding-bottom: 30px;
+}
+.sec3 .sec3-warp{
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+.sec3 .sec3-warp .top{
+    width: 100%;
+    height: 84px;
+    font-size: 44px;
+    text-align: center;
+    line-height: 84px;
+    border: 1px solid #000;
+}
+.sec3 .sec3-warp .bo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec3 .sec3-warp .bo .bo1{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+.sec3 .sec3-warp .bo .bo1:nth-child(5n){
+    margin-right: 0px;
+}
+.sec3 .sec3-warp .bo .bo1 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.sec3 .sec3-warp .bo .bo1 p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
