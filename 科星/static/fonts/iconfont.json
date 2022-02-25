@@ -1,0 +1,100 @@
+{
+  "id": "2874623",
+  "name": "科星",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "25601831",
+      "name": "方向",
+      "font_class": "fangxiang",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "25601832",
+      "name": "科星logo",
+      "font_class": "kexinglogo",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "25601833",
+      "name": "核心价值观",
+      "font_class": "hexinjiazhiguan",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "705663",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "16256647",
+      "name": "企业使命",
+      "font_class": "qiyeshiming",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "20310717",
+      "name": "愿景",
+      "font_class": "yuanjing",
+      "unicode": "e797",
+      "unicode_decimal": 59287
+    },
+    {
+      "icon_id": "13638737",
+      "name": "面积",
+      "font_class": "mianji",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "15447844",
+      "name": "建筑",
+      "font_class": "jianzhu",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "15980212",
+      "name": "员工",
+      "font_class": "yuangong",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "371809",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "995972",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "6112385",
+      "name": "下拉",
+      "font_class": "xiala-",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5392454",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}

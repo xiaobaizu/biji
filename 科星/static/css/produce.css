@@ -1,0 +1,178 @@
+head-left .sec4-warp3 line {
+    background:rgba(0,0,0,.2)
+}
+.head .head-left .left-d span{
+    color:#fff ;
+}
+.head .head-left .span span{
+    background:#fff;
+}
+.head-right .ss i{
+    color: #fff;
+}
+.head-right .ss input{
+    color: #B1B1B1;
+    background: #F6F6F6;
+}
+.head-right .search{
+    color:#fff;
+}
+.head-right .CN{
+    color: #fff;
+}
+.language span{
+    color: #fff;
+}
+.head-right .line{
+    background: rgba(0,0,0,.2);
+}
+.head-right .xl i{
+    color: #fff;
+}
+
+
+.section{
+    width: 100%;
+    height: 960px;
+    overflow: hidden;
+}
+.xl i{
+    color: white;
+}
+.section2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, .06      );
+}
+.section2 p{
+    text-align: center;
+    width: 152px;
+    font-size: 14px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #464646;
+    transition: 0.6s;
+    cursor: pointer;
+    position: relative;
+    /*margin-right: 96px;*/
+}
+.section2 p:after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: #0080CC;
+    bottom: -35px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+    transition: 0.6s;
+}
+.section2 p:hover{
+    color: rgba(0, 128, 204, .6);
+}
+.section2 p:hover:after{
+    width: 70px;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    background: white;
+    overflow: hidden;
+}
+.sec3-warp{
+    width: 75%;
+    margin: auto;
+    margin-top: 98px;
+    margin-bottom: 181px;
+}
+.sec3-warp1{
+    width: 100%;
+    display: flex;
+}
+.sec3-warp1 .sec3-warp-left{
+    width: 888px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3-warp1 .sec3-warp-left img{
+    width: 100%;
+    height: auto;
+}
+.sec3-warp1 .sec3-warp-left p{
+    width: 704px;
+    height: 79px;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #262525;
+    line-height: 32px;
+    margin-top: 35px;
+}
+.sec3-warp1 .sec3-warp-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 566px;
+    justify-content: space-between;
+}
+.sec3-warp1 .sec3-warp-right .sec3-warp-right-top span{
+    font-size: 32px;
+    font-family: SourceHanSansCN-Bold;
+    font-weight: bold;
+    color: #303030;
+    line-height: 28px;
+    margin: 67px 0px;
+    display: block;
+}
+.sec3-warp1 .sec3-warp-right .sec3-warp-right-top p{
+    width: 450px;
+    font-size: 15px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #262525;
+    line-height: 34px;
+}
+.sec3-warp-ri{
+    display: flex;
+}
+.prev{
+    transform: rotateY(180deg);
+    margin-right: 23px;
+}
+.prev,.next{
+    width: 44px;
+    height: 44px;
+    background: #CBCDCF;
+    border-radius: 50%;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+.prev i,.next i{
+    color: rgba(137, 140, 142, 1);
+    font-size: 13px;
+    transition: 0.6s;
+}
+.prev:hover,.next:hover{
+    cursor: pointer;
+    background: #0080CC;
+}
+.prev:hover i,.next:hover i{
+    color: white;
+}
+.que:after{
+    width: 70px!important;
+}
+.sec3-warp2 .swiper-container{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 90px;
+}

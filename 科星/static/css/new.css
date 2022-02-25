@@ -1,0 +1,248 @@
+head-left .line {
+    background:rgba(0,0,0,.2)
+}
+.head .head-left .left-d span{
+    color:#3E3E3E ;
+}
+.head .head-left .span span{
+    background:#4F4F4F;
+}
+.head-right .ss i{
+    color: #3F3F3F;
+}
+.head-right .ss input{
+    color: #B1B1B1;
+    background: #F6F6F6;
+}
+.head-right .search{
+    color:#444444;
+}
+.head-right .CN{
+    color: #444;
+}
+.language span{
+    color: #444;
+}
+.head-right .line{
+    background: rgba(0,0,0,.2);
+}
+.head-right .xl i{
+    color: #444;
+}
+
+.section{
+    width: 100%;
+    height: 960px;
+    overflow: hidden;
+}
+.xl i{
+    color: white;
+}
+.section2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, .06      );
+}
+.section2 p{
+    text-align: center;
+    width: 152px;
+    font-size: 14px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #464646;
+    transition: 0.6s;
+    cursor: pointer;
+    /*margin-right: 96px;*/
+}
+.section2 p:hover{
+    color: rgba(0, 128, 204, .6);
+}
+.section3{
+    width: 100%;
+    height: auto;
+    background: white;
+    overflow: hidden;
+
+}
+.section3 .sec3-warp{
+    width: 1366px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    margin-top: 88px;
+    flex-wrap: wrap;
+}
+.sec3-warp1{
+    width: 432px;
+    height: auto;
+}
+.sec3-warp-img{
+    width: 100%;
+    height: 279px;
+    overflow: hidden;
+}
+.sec3-warp-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 4s;
+}
+.sec3-warp-text{
+    width: 100%;
+    height: auto;
+}
+.text-nei{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    padding-bottom:15px
+}
+.sec3-warp-text span{
+    font-size: 20px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 31px;
+    margin-bottom: 21px;
+    display: block;
+    transition: 0.6s;
+}
+.sec3-warp-text p{
+    font-size: 14px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #5C5C5C;
+    line-height: 22px;
+    transition: 0.6s;
+
+}
+.sec3-warp-text .da-mo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    transition: 0.6s;
+
+}
+.sec3-warp-text .da-mo p{
+    font-size: 14px;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    color: #727272;
+    transition: 0.6s;
+
+}
+.sec3-warp-text .da-mo .lijie{
+    font-size: 14px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #6F6F6F;
+    transition: 0.6s;
+
+}
+.sec3-warp-text .da-mo .lijie i{
+    font-size: 11px;
+    transition: 0.6s;
+
+}
+.sec3-warp1{
+    margin-bottom: 59px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.sec3-warp-text{
+    transition: 4s;
+}
+.sec3-warp1:hover img{
+    transform: scale(1.1);
+
+}
+.sec3-warp1:hover .sec3-warp-text{
+    cursor: pointer;
+    background: #0080CC;
+}
+.sec3-warp1:hover span,.sec3-warp1:hover p,.sec3-warp1:hover i{
+    color: white!important;
+}
+.section4{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: white;
+}
+.sec4-warp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 89px;
+}
+.prev{
+    transform: rotateY(180deg);
+    margin-right: 23px;
+}
+.prev,.next{
+    width: 44px;
+    height: 44px;
+    background: #CBCDCF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+.prev i,.next i{
+    color: rgba(137, 140, 142, 1);
+    font-size: 13px;
+    transition: 0.6s;
+}
+.prev:hover,.next:hover{
+    cursor: pointer;
+    background: #0080CC;
+}
+.prev:hover i,.next:hover i{
+    color: white;
+}
+.ye{
+    font-size: 16px;
+    font-family: ITC Avant Garde Gothic Std;
+    font-weight: 500;
+    color: #949393;
+    margin-right: 23px;
+    cursor: pointer;
+}
+.sec4-warp .color{
+
+    color: #0080CC;
+}
+.section2 p{
+    position: relative;
+}
+.section2 p:after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: #0080CC;
+    bottom: -35px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+    transition: 0.6s;
+}
+.section2 p:hover:after{
+    width: 70px !important;
+}
+.que{
+    color: rgba(0, 128, 204, .6) !important;
+}
+.que:after{
+    width: 70px !important;
+}
