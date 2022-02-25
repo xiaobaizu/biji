@@ -1,0 +1,18 @@
+@font-face {
+font-family: "SourceHanSansSC-Regular";
+src: url("./NotoSansHans-Regular.otf");
+}
+@font-face {
+font-family: "SourceHanSansSC-Mdeium";
+src: url("./NotoSansHans-Medium.otf");
+}
+@font-face {
+font-family: "SourceHanSansSC-Bold";
+src: url("./NotoSansHans-Bold.otf");
+}
+
+@font-face {
+font-family: "SourceHanSansSC-Light";
+src: url("./NotoSansHans-Light.otf");
+}
+
