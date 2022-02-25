@@ -1,0 +1,88 @@
+.sc{
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    top: 100px;
+}
+.sc>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sc .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sec1{
+    width: 100%;
+    height: 620px;
+}
+.sec2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: white;
+}
+.sec2 .sec2-warp{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    margin-top: 88px;
+    margin-bottom: 43px;
+}
+.sec2 .sec2-warp>span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+    margin-bottom: 59px;
+    text-align: center;
+}
+.sec2 .sec2-warp .item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.sec2 .sec2-warp .item:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+.sec2 .sec2-warp .item .left{
+    width: 700px;
+    height: 400px;
+    overflow:hidden;
+}
+.sec2 .sec2-warp .item .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec2 .sec2-warp .item .right{
+    width: 660px;
+    height: 400px;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    flex-direction: column;
+}
+.sec2 .sec2-warp .item .right span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+.sec2 .sec2-warp .item .right .line{
+    width: 26px;
+    height: 3px;
+    background: #08A3D5;
+    margin: 15px 0px;
+}
+.sec2 .sec2-warp .item .right p{
+    width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}

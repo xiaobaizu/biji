@@ -1,0 +1,138 @@
+.sec1{
+    width: 100%;
+    height: 50px;
+    background: #08A3D5;
+    padding-top: 100px;
+}
+.sec1-warp{
+    width: 1640px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.sec1-warp i{
+    color: #fff;
+    margin:0px 9px;
+}
+.sec1-warp i:nth-child(1){
+    margin-left: 0px;
+}
+.sec1-warp a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sec2{
+    width: 1400px;
+    margin: auto;
+    height: auto;
+}
+.sec2>span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin-bottom: 44px;
+    margin-top: 88px;
+}
+.sec2 .item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec2 .item .item1{
+    width: 440px;
+    margin-right: 40px;
+    margin-bottom: 47px;
+}
+.sec2 .item .item1:hover img{
+    transform: scale(1.1);
+}
+.sec2 .item .item1:nth-child(3n){
+    margin-right: 0px;
+}
+.sec2 .item .item1 .img{
+    width: 440px;
+    height: 280px;
+    overflow: hidden;
+}
+.sec2 .item .item1 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.sec2 .item .item1 .text{
+    width: 370px;
+    height: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 0px 35px;
+    overflow: hidden;
+}
+.sec2 .item .item1 .text span{
+    display: block;
+    width: 370px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 36px;
+    margin-bottom: 12px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sec2 .item .item1 .text p{
+    width: 348px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 26px;
+
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.sec2 .item .page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 39px 0px 50px;
+}
+.sec2 .item .page a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    color: #666666;
+    transition: 0.6s;
+    margin: 0px 7px;
+}
+.sec2 .item .page a i {
+    color: #000;
+    transition: 0.6s;
+}
+.sec2 .item .page a.sel {
+    background: #08A3D5;
+    color: white;
+}
+.sec2 .item .page a:hover {
+    background: #08A3D5;
+    color: white;
+}
+.sec2 .item .page a:hover i{
+    color: white;
+}

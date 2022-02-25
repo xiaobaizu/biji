@@ -1,0 +1,231 @@
+.sec1{
+    width: 100%;
+    height: 50px;
+    background: #08A3D5;
+    padding-top: 100px;
+}
+.sec1-warp{
+    width: 1640px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.sec1-warp i{
+    color: #fff;
+    margin:0px 9px;
+}
+.sec1-warp i:nth-child(1){
+    margin-left: 0px;
+}
+.sec1-warp a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sec2 .sec2-warp{
+    width: 1640px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+.sec2 .sec2-warp .left{
+    width: 255px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.sec2 .sec2-warp .left .left1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+.sec2 .sec2-warp .left .left1 .top{
+    width: 100%;
+    height: auto;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.sec2 .sec2-warp .left .left1 .top i{
+    transition: 0.6s;
+}
+.sec2 .sec2-warp .left .left1 .top span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+.sec2 .sec2-warp .left .left1 .pro-a{
+    flex-direction: column;
+    margin-top: 10px;
+    display: none;
+}
+.sec2 .sec2-warp .left .left1 .top.sel i{
+    transform: rotate(90deg);
+}
+.sec2 .sec2-warp .left .left1 .pro-a a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 37px;
+    display: block;
+    width: 100%;
+    transition: 0.6s;
+}
+.sec2 .sec2-warp .left .left1 .pro-a a:hover{
+    color: #007aff;
+}
+.sec2 .sec2-warp .right{
+    width: 1300px;
+    height: auto;
+}
+.sec2 .sec2-warp .right .top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.sec2 .sec2-warp .right .top .left1{
+    display: flex;
+    flex-direction: column;
+}
+.sec2 .sec2-warp .right .top .left1 span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+.sec2 .sec2-warp .right .top .left1 p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #666666;
+}
+.sec2 .sec2-warp .right .top .right1{
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    position: relative;
+}
+
+.sec2 .sec2-warp .right .top .right1 select{
+    /*清除select的边框样式*/
+    border: none;
+    /*清除select聚焦时候的边框颜色*/
+    outline: none;
+    /*将select的宽高等于div的宽高*/
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    /*隐藏select的下拉图标*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /*通过padding-left的值让文字居中*/
+    padding-left: 20px;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+/*使用伪类给select添加自己想用的图标*/
+.sec2 .sec2-warp .right .top .right1 i{
+    font-size: 13px;
+    /*通过定位将图标放在合适的位置*/
+    position: absolute;
+    right: 20px;
+    top: 41%;
+    /*给自定义的图标实现点击下来功能*/
+    pointer-events: none;
+    transform: rotate(90deg);
+}
+.sec2 .sec2-warp .right .top .right1 option{
+    height: 50px;
+}
+.sec2 .sec2-warp .right .bo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.sec2 .sec2-warp .right .bo .item{
+    margin-bottom: 38px;
+    margin-right: 20px;
+}
+.sec2 .sec2-warp .right .bo .item:nth-child(4n){
+    margin-right: 0px;
+}
+.sec2 .sec2-warp .right .bo .item .img{
+    width: 310px;
+    height: 280px;
+    overflow: hidden;
+}
+.sec2 .sec2-warp .right .bo .item .img:hover img{
+    transform: scale(1.1);
+}
+.sec2 .sec2-warp .right .bo .item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.sec2 .sec2-warp .right .bo .item .text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 32px;
+}
+.sec2 .sec2-warp .right .bo .item .text span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+.sec2 .sec2-warp .right .bo .item .text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #08A3D5;
+    margin-top: 5px;
+}
+.sec2 .sec2-warp .right .page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 39px 0px 50px;
+}
+.sec2 .sec2-warp .right .page a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    color: #666666;
+    transition: 0.6s;
+    margin: 0px 7px;
+}
+.sec2 .sec2-warp .right .page a i{
+    color: #000;
+    transition: 0.6s;
+}
+.sec2 .sec2-warp .right .page a:hover{
+    background: #08A3D5;
+    color: white;
+}
+.sec2 .sec2-warp .right .page a:hover i{
+    color: white;
+}
+.sec2 .sec2-warp .right .page a.sel{
+    background: #08A3D5;
+    color: white;
+}

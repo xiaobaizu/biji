@@ -1,0 +1,437 @@
+.sec1{
+    width: 100vw;
+    height: 100vh;
+}
+.sec1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sec1 .swiper .swiper-slide{
+    position: relative;
+    overflow: hidden;
+}
+.sec1 .swiper .swiper-slide img{
+    transform: scale(1.1);
+    transition: cubic-bezier(.77, 0, .175, 1) transform 2s;;
+}
+.sec1 .swiper .swiper-slide-active img{
+    transform: scale(1);
+}
+.sec1 .swiper .swiper-slide .text{
+    position: absolute;
+    top: 50%;
+    left: 218px;
+    transform: translate(0%,-50%);
+}
+.sec1 .swiper .swiper-slide .text .span{
+    color: #FFFFFF;
+    letter-spacing: 10px;
+
+    font-size: 32px;
+    font-weight: bold;
+}
+.sec1 .swiper .swiper-slide .text .span span{
+    position: relative;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: -300px;
+    opacity: 0;
+    transition: 0.6s;
+
+    /*letter-spacing: 10px;*/
+
+    font-size: 32px;
+}
+.sec1 .swiper .swiper-slide-active .text .span span{
+    opacity: 1;
+    top: 0;
+}
+.sec1 .swiper .swiper-slide .text p{
+    color: #FFFFFF;
+    margin-top: 33px;
+
+
+    width: 530px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.sec1 .np{
+    position: absolute;
+    left: 218px;
+    bottom: 40%;
+    width: auto;
+    height: auto;
+    display: flex;
+    z-index: 9999;
+    align-items: center;
+}
+.sec1 .np .line{
+    width: 1px;
+    height: 26px;
+    background: #FFFFFF;
+    opacity: .3;
+    margin: 0px 8px;
+}
+.sec1 .np i{
+    cursor: pointer;
+    color: white;
+}
+
+.swiper-pagination-bullet{
+    background: inherit;
+}
+:root{
+
+    --swiper-theme-color: inherit;
+}
+.pagination{
+    position: absolute;
+    /*right: 20px;*/
+    top: 40%!important;
+    left: 90%!important;
+    width: 30px!important;
+    height: auto;
+    z-index: 99;
+    display: flex!important;
+    flex-direction: column!important;
+}
+.pagination span{
+    color: white!important;
+    opacity: 1!important;
+    position: relative;
+    margin: 15px 0px!important;
+    transition: 1s;
+}
+.pagination span:after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    top: 30px;
+    left: 10px;
+    transition: 1s;
+    height: 0px;
+}
+.pagination .swiper-pagination-bullet-active{
+    margin-bottom: 205px!important;
+
+}
+.pagination .swiper-pagination-bullet-active:after{
+    height: 190px;
+}
+.sec1 .cir{
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    bottom: 28px;
+    width: 30px;
+    height: 30px;
+    background: rgba(102, 102, 102, 0);
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.sec1 .cir .div{
+    width: 2px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 5px;
+    opacity: 0;
+    animation: xz1 2s infinite linear;
+}
+@keyframes xz1 {
+    50%{
+        opacity: 1;
+        top: 10px;
+    }
+    100%{
+        opacity: 0;
+        top: 20px;
+    }
+}
+.sec1 .swiper .swiper-slide .text a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    transition: 0.6s;
+
+    background: rgba(245, 245, 245, 0);
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 56px;
+}
+.sec1 .swiper .swiper-slide .text i{
+    font-size: 31px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: white;
+    opacity: 1!important;
+    position: relative;
+    margin:0px 17.5px!important;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet:after{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0deg);
+    border-left:0px ;
+    border-top: 0px;
+    transition: 0.6s;
+    animation: xz 2s infinite linear;
+    opacity: 0;
+    transition: 0.6s;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet-active:after{
+    opacity: 1;
+}
+@keyframes xz {
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+.swiper-pagination{
+    bottom: 23px!important;
+}
+.sec2-warp{
+    width: 1640px;
+    height: auto;
+    margin: auto;
+    margin-top: 87px;
+}
+.sec2-warp .sec2-top{
+    width: 100%;
+    height: auto;
+}
+.sec2-warp .sec2-top .sec2-top-text{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.sec2-warp .sec2-top .sec2-top-text span{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+.sec2-warp .sec2-top .sec2-top-text p{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+.sec2-warp .sec2-top .sec2-top-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2-warp .sec2-top .sec2-top-item .item .img{
+    width: 230px;
+    height: 190px;
+    overflow: hidden;
+}
+.sec2-warp .sec2-top .sec2-top-item .item:hover img{
+    transform: scale(1.1);
+}
+.sec2-warp .sec2-top .sec2-top-item .item .img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.sec2-warp .sec2-top .sec2-top-item .item .text p{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 28px;
+    text-align: center;
+}
+.sec2-warp .sec2-bo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+    margin-bottom: 89px;
+}
+.sec2-warp .sec2-bo .item1 .img{
+    width: 800px;
+    height: 520px;
+    overflow: hidden;
+}
+.sec2-warp .sec2-bo .item1:hover img{
+    transform: scale(1.1);
+}
+.sec2-warp .sec2-bo .item1 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+
+}
+.sec2-warp .sec2-bo .item1 .text span{
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.sec2-warp .sec2-bo .item1 .text p{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #666666;
+}
+.sec3{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+.sec3 .swiper .swiper-slide img{
+    width: 100%;
+}
+.sec3 .swiper .swiper-slide span{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #000000;
+}
+.sec3 .swiper .swiper-slide p{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 5px;
+}
+.sec3 .swiper .swiper-slide .text{
+    margin-left: 26px;
+    margin-top: 16px;
+}
+.sec3 .swiper .swiper-slide .text .money{
+    display: flex;
+}
+.sec3 .swiper .swiper-slide p.mo2{
+    color: #CCCCCC;
+    text-decoration: line-through;
+}
+.sec4 img{
+    width: 100%;
+}
+.sec4{
+    position: relative;
+}
+.sec4 .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.sec4 .text span{
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.sec4 .text p{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 27px;
+    margin-bottom: 59px;
+}
+.sec4 a.anniu{
+    margin: auto;
+}
+.sec5-warp{
+    width: 1400px;
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 119px;
+}
+.sec5-warp>span{
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
+.sec5-warp .item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec5-warp .item .item1 .text span{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 15px;
+display: block;
+}
+.sec5-warp .item .item1 .text .money{
+    display: flex;
+}
+.sec5-warp .item .item1{
+    margin-right: 53.3px;
+    margin-bottom: 66px;
+}
+.sec5-warp .item .item1:nth-child(4n){
+    margin-right: 0px;
+}
+.sec5-warp .item .item1 .img{
+    width: 310px;
+    height: 280px;
+    overflow: hidden;
+}
+.sec5-warp .item .item1:hover img{
+    transform: scale(1.1);
+}
+.sec5-warp .item .item1 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.sec5-warp .item .item1 .text p{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 5px;
+}
+.sec5-warp .item .item1 .text p.mo2{
+    text-decoration: line-through;
+    color: #cccccc;
+}

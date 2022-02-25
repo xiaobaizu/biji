@@ -1,0 +1,81 @@
+.sec1{
+    width: 100%;
+    position: relative;
+}
+.sec1 .img{
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+
+}
+.sec1 .img img{
+    width: 100%;
+    height: 100%;
+}
+.sec1 .img1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    z-index: 3;
+}
+.sec1 .big{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    z-index: 2;
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+.sec1 .big .big1{
+    width: 233px;
+    height: 100%;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    position: relative;
+}
+.sec1 .big .big1 .big-war{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    z-index: 10;
+}
+.sec1 .big .big1 span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+.sec1 .big .big1 .cir{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+    opacity: 0;
+    cursor: pointer;
+}
+.sec1 .big .big1 .cir i{
+    color: white;
+}
+.sec1 .big .big1 .color{
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    transition: 1s;
+    left: 0px;
+    z-index: 9;
+    opacity: 0.8;
+
+}

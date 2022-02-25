@@ -1,0 +1,254 @@
+.sec1{
+    width: 1400px;
+    margin: auto;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.sec1 .sec1-warp{
+    width: 100%;
+    margin-top: 80px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 .right .img{
+    width: 490px;
+    height: 570px;
+    overflow: hidden;
+}
+.sec1 .right .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec1 .left form{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec1 .left>span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+    margin-bottom: 42px;
+}
+.sec1 .left .b1 span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+.sec1 .left .b1 span.red{
+    color: red;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.sec1 .left .b1{
+    width: 320px;
+    margin-bottom: 23px;
+}
+.sec1 .left .b1.b2{
+    width: 100%;
+}
+.sec1 .left .b1 input{
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    margin-top: 16px;
+    text-indent: 10px;
+}
+.sec1 .left .b1 textarea{
+    width: 700px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    margin-top: 16px;
+}
+.sec1 .left .b1 .select{
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    margin-top: 16px;
+    position: relative;
+}
+.sec1 .left .b1 a{
+    display: block;
+    width: 700px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    text-align: center;
+    line-height: 44px;
+    color: #666666;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+.sec1 .left .b1 a strong{
+    color: #08A3D5;
+}
+.sec1 .left .anniu{
+    background: #08A3D5;
+    margin-top: 12px;
+}
+.sec1 .left .anniu:before{
+    left: 47px;
+}
+.sec1 .left .b1 .select select{
+    /*清除select的边框样式*/
+    border: none;
+    /*清除select聚焦时候的边框颜色*/
+    outline: none;
+    /*将select的宽高等于div的宽高*/
+    width: 100%;
+    height: 44px;
+    line-height: 50px;
+    /*隐藏select的下拉图标*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /*通过padding-left的值让文字居中*/
+    padding-left: 20px;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+/*使用伪类给select添加自己想用的图标*/
+.sec1 .left .b1 .select i{
+    font-size: 13px;
+    /*通过定位将图标放在合适的位置*/
+    position: absolute;
+    right: 20px;
+    top: 41%;
+    /*给自定义的图标实现点击下来功能*/
+    pointer-events: none;
+    transform: rotate(90deg);
+}
+.sec2 .sec2-warp .right .top .right1 option{
+    height: 44px;
+}
+
+.sec2{
+    overflow: hidden;
+    width: 1400px;
+    margin: auto;
+    margin-top: 108px;
+    margin-bottom: 108px;
+}
+.sec2>span{
+    display: block;
+    text-align: center;
+    margin-bottom: 45px;
+
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sec2 .sec2-warp .item{
+    width: 1300px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #F0F2F6;
+}
+.sec2 .sec2-warp .item span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    width: 160px;
+}
+.sec2 .sec2-warp .item .cir{
+    width: 36px;
+    height: 36px;
+}
+.sec2 .sec2-warp .item2 .top{
+    width: 1300px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #E6E6E6;
+    transition: 1s;
+}
+.sec2 .sec2-warp .item2 .top span{
+    width: 160px;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    transition: 1s;
+}
+.sec2 .sec2-warp .item2 .top .cir{
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #999999;
+    opacity: 0.5;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+.sec2 .sec2-warp .item2 .top .cir span{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #666666;
+    transition: 1s;
+    
+}
+.sec2 .sec2-warp .item2 .top .cir span:nth-child(1){
+    width: 10px;
+    height: 2px;
+}
+.sec2 .sec2-warp .item2 .top .cir span:nth-child(2){
+    width: 2px;
+    height:10px;
+}
+.sec2 .sec2-warp .item2 .top .cir.sel span:nth-child(2){
+    transform:translate(-50%,-50%) rotate(90deg);
+}
+
+.sec2 .sec2-warp .item2 .top:hover{
+    cursor: pointer;
+    background: #08A3D5;
+}
+.sec2 .sec2-warp .item2 .top:hover span{
+    color: white;
+}
+.sec2 .sec2-warp .item2 .top:hover .cir{
+    border: 1px solid white;
+}
+.sec2 .sec2-warp .item2 .top:hover .cir span{
+    background: white;
+}
+.sec2 .sec2-warp .item2 .neirong{
+    padding: 44px 0px 77px;
+    flex-direction: column;
+    border-bottom: 1px solid #E6E6E6;
+    display: none;
+}
+.sec2 .sec2-warp .item2 .neirong p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 32px;
+}
+.sec2 .sec2-warp .item2 .neirong .anniu{
+    background: #08A3D5;
+    margin-top: 52px;
+}
+.sec2 .sec2-warp .item2 .neirong .anniu:before{
+    left: 50px;
+}

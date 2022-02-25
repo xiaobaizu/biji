@@ -1,0 +1,137 @@
+.sec1{
+    width: 100%;
+    height: 50px;
+    background: #08A3D5;
+    padding-top: 100px;
+}
+.sec1-warp{
+    width: 1640px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.sec1-warp i{
+    color: #fff;
+    margin:0px 9px;
+}
+.sec1-warp i:nth-child(1){
+    margin-left: 0px;
+}
+.sec1-warp a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sec2{
+    width: 1400px;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+.sec2>span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #333333;
+    display: block;
+    margin-top: 67px;
+    text-align: center;
+}
+.sec2>p{
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+    margin-top: 19px;
+    margin-bottom: 53px;
+}
+.sec2 .content{
+    width: 100%;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 51px;
+}
+.sec2 .content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 26px;
+    margin-bottom: 44px;
+}
+.sec2 .content p img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+.sec2 .content p:nth-last-child(1){
+    margin-bottom: 94px;
+}
+.sec2 .content .np{
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    width: 1398px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2 .content .np .left{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    flex-direction: column;
+}
+.sec2 .content .np .right{
+    width: 699px;
+    border-left: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    flex-direction: column;
+    transition: 1s;
+
+}
+.sec2 .content .np .left span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 1s;
+}
+.sec2 .content .np .line{
+    width: 620px;
+    height: 3px;
+    background: #E6E6E6;
+    transition: 1s;
+    margin-top: 31px;
+    position: relative;
+}
+.sec2 .content .np .line:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    transition: cubic-bezier(.77,0,.175,1) 1s;
+    background: #08A3D5;
+}
+.sec2 .content .np a:hover .line:after{
+    width: 100%;
+}
+.sec2 .content .np a:hover span{
+    color: #08A3D5;
+}
+.sec2 .content .np .right span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
