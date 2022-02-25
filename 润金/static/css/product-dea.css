@@ -1,0 +1,386 @@
+.sec1{
+    width: 100%;
+    background-size: cover;
+}
+.sec1 .img{
+    width: 100%;
+    overflow: hidden;
+}
+.sec1 img{
+    width: 100%;
+    transition: 3s;
+    transform: scale(1.1);
+}
+.sec1 .nav{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+
+    width: 1200px;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 33px 7px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 99999999;
+}
+.sec1 .nav .left{
+    /*margin-left: 39px;*/
+    /*width: 130px;*/
+    border-right: 1px solid rgba(198, 198, 198, .22);
+    padding: 0px 39px;
+}
+.sec1 .nav .left .sel{
+    color: #EA5404;
+}
+.sec1 .nav .right{
+    /*margin-right: 61px;*/
+    display: flex;
+    width: 860px;
+    justify-content: center;
+    padding-right: 170px;
+}
+.sec1 .nav .right a{
+    display: block;
+    margin-left: 80px;
+    display: block;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+}
+.sec1 .nav .right a.sel{
+    color: #EA5404;
+}
+.sec1 .nav .right a:hover{
+    color: #EA5404;
+}
+.sec1 .nav a{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.6s;
+
+}
+.sec1 .nav a:hover,.sec1 .nav a:hover i{
+    color: #EA5404;
+}
+.sec1 .nav a i{
+    font-size: 24px;
+    margin-right: 20px;
+    transition: 0.6s;
+}
+
+
+.sec2{
+    overflow: hidden;
+}
+.sec2-warp{
+    width: 1550px;
+    margin: 120px auto 30px;
+}
+.sec2-warp .warp1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 153px;
+}
+.sec2-warp .warp1 .left{
+    width: 734px;
+    height: auto;
+}
+.sec2-warp .warp1 .left1{
+    width: 734px;
+    height: 654px;
+}
+.sec2-warp .warp1 .left1 .swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-pagination{
+    bottom: 10% !important;
+}
+.swiper-pagination-bullet{
+    border: 1px solid rgba(234, 84, 4, 1) !important;
+    background: inherit!important;
+}
+.swiper-pagination-bullet-active{
+    background: rgba(234, 84, 4, 1) !important;
+}
+.sec2-warp .warp1 .left2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.sec2-warp .warp1 .left2 .img{
+    width: 213px;
+    height: 193px;
+}
+.sec2-warp .warp1 .left2 .img img{
+    width: 100%;
+    height: 100%;
+}
+.sec2-warp .warp1 .right{
+    width: 696px;
+    margin-top: 150px;
+}
+.sec2-warp .warp1 .right .top{
+    width: 100%;
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgba(181, 181, 181, .5);
+}
+.sec2-warp .warp1 .right .top span{
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #EA5404;
+}
+.sec2-warp .warp1 .right .bo{
+    margin-top: 77px;
+}
+.sec2-warp .warp1 .right .bo span {
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #333333;
+}
+.sec2-warp .warp1 .right .bo p{
+    width: 592px;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 36px;
+    margin-top: 33px;
+}
+.sec2-warp .warp2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 154px;
+}
+.sec2-warp .warp2 .w1>span{
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #333333;
+}
+.sec2-warp .warp2 .w1>p{
+    font-size: 14px;
+    font-family: Nexa Text-Trial;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+.tt span{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 22px;
+    position: relative;
+}
+.tt span:after{
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 6px;
+    height: 32px;
+    background: #EA5404;
+}
+.sec2-warp .warp2 .img{
+    width: 1182px;
+    height: 217px;
+    margin:156px auto 108px;
+}
+.sec2-warp .warp2 .adv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2-warp .warp2 .adv>div{
+    width: 670px;
+    height: 750px;
+    padding: 80px 0px 0px 60px;
+}
+.sec2-warp .warp2 .adv .left{
+    background-image: url(../images/left.png);
+}
+.sec2-warp .warp2 .adv .right{
+    background-image: url(../images/right.png);
+}
+.sec2-warp .warp2 .adv .item{
+    display: flex;
+    margin-bottom: 79px;
+}
+.sec2-warp .warp2 .adv .item .cir{
+    width: 31px;
+    height: 31px;
+    background: #EA5404;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+
+
+    font-size: 19px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 35px;
+}
+.sec2-warp .warp2 .adv .item .text p{
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.sec2 .warp3{
+    margin-bottom: 116px;
+    width: 100%;
+}
+.sec2 .warp3 .top{
+    width: 100%;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 80px;
+}
+.sec2 .warp3 .top span{
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+}
+.sec2 .warp3 .top p{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 53px;
+}
+.sec2 .warp3 .bo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec2 .warp3 .bo .item{
+    width: 473px;
+    height: 347px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.sec2 .warp3 .bo .item img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    object-fit: cover;
+}
+.sec2 .warp3 .bo .item:hover img{
+    transform: scale(1.1);
+}
+.sec2 .warp3 .bo .item:nth-child(3n){
+    margin-right: 0px;
+}
+.sec2 .warp4{
+    margin-bottom: 140px;
+}
+.sec2 .warp4 .img{
+    width: 1134px;
+    height: 741px;
+    margin: auto;
+    margin-top: 102px;
+}
+.sec2 .warp4 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.warp5 .top{
+    margin-top: 101px;
+    width: 100%;
+    text-align: center;
+}
+.warp5 .top p{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+}
+.warp5 .bo{
+    width: 1420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 83px;
+}
+.warp5 .bo .item{
+    width: 1420px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.warp5 .bo .item .left{
+    width: 710px;
+    height: 444px;
+}
+.warp5 .bo .item .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.warp5 .bo .item .right{
+    width: 710px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.warp5 .bo .item .right span{
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #EA5404;
+    display: block;
+    margin-bottom: 40px;
+    position: relative;
+}
+.warp5 .bo .item .right span:after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 34px;
+    height: 1px;
+    background: #EA5404;
+}
+.warp5 .bo .item .right p{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 26px;
+}
+.warp5 .bo .item:nth-child(2n){
+    flex-direction: row-reverse;
+}
+.warp5 .bo .item:nth-child(2n) .text{
+    text-align: right;
+}
+.warp5 .bo .item:nth-child(2n) .text span:after{
+    left: 100%;
+    transform: translate(-100%,0%);
+}
+.sec2 .deg{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}

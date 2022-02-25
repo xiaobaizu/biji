@@ -1,0 +1,113 @@
+.sec1{
+    width: 100%;
+    background-size: cover;
+}
+.sec1 .img{
+    width: 100%;
+    overflow: hidden;
+}
+.sec1 img{
+    width: 100%;
+    transition: 3s;
+    transform: scale(1.1);
+}
+.sec1 .nav{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+
+    width: 1200px;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 33px 7px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99999999;
+}
+.sec1 .nav .left{
+    margin-left: 39px;
+    width: 130px;
+    border-right: 1px solid rgba(198, 198, 198, .22);
+}
+.sec1 .nav .right{
+    /*margin-right: 61px;*/
+    display: flex;
+    width: 860px;
+    justify-content: center;
+    padding-right: 170px;
+}
+.sec1 .nav .right a{
+    display: block;
+    margin-left: 80px;
+    display: block;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+}
+.sec1 .nav .right a.sel{
+    color: #EA5404;
+}
+.sec1 .nav .right a:hover{
+    color: #EA5404;
+}
+.sec1 .nav a{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.6s;
+
+}
+.sec1 .nav a:hover,.sec1 .nav a:hover i{
+    color: #EA5404;
+}
+.sec1 .nav a i{
+    font-size: 24px;
+    margin-right: 20px;
+    transition: 0.6s;
+}
+
+.sec2{
+    background-image: url(../images/help1.jpg);
+    overflow: hidden;
+    background-size: cover;
+}
+.sec2-warp{
+    width: 1440px;
+    margin:130px auto 55px;
+}
+.sec2-warp .item{
+    display: flex;
+}
+.sec2-warp .item .text{
+    width: 743px;
+    height: 80px;
+    background: rgba(201, 201, 201, 0.32);
+    box-shadow: -12px 1px 20px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 77px;
+    margin-left: 40px;
+    line-height: 80px;
+}
+.sec2-warp .item .text p{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #232323;
+    text-indent: 55px;
+}
+.sec2-warp .item.kefu{
+    justify-content: flex-end;
+    margin-top: 71px;
+
+}
+.sec2-warp .item.kefu .text{
+    margin-bottom: 66px;
+    margin-right: 50px;
+    margin-top: 0px;
+}

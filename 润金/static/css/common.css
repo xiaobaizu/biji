@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+#my-scrollbar{
+    height: 100vh;
+    position: relative;
+    overflow: hidden!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+.scrollbar-track-y{
+    background: transparent!important;
+}
+.scrollbar-thumb{
+    background: transparent!important;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 156px;
+}
+.nav{
+    margin-right: 77px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.header .nav a{
+    display: block;
+    height: 100%;
+    line-height: 80px;
+    margin:0px 50px;
+
+    font-size: 15px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 1s;
+    position: relative;
+}
+.header a:after{
+    width: 0%;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #EA5404;
+    transition: 1s;
+}
+.header .nav a:hover{
+    color: #EA5404;
+}
+.header .nav a:hover:after{
+    width: 100%;
+}
+.header .nav a.sel{
+    color: #EA5404;
+}
+.header .nav a.sel:after{
+    width: 100%;
+}
+.header .nav .cai{
+    cursor: pointer;
+}
+.header .nav .cai span{
+    width: 23px;
+    height: 2px;
+    background: #EA5404;
+    opacity: 0.8;
+    display: block;
+    margin: 2.5px 0px;
+    transition: 0.6s;
+    position: relative;
+}
+.header .nav .cai.close span:nth-child(2){
+    opacity: 0;
+}
+.header .nav .cai.close span:nth-child(1){
+    transform: rotate(45deg);
+    top: 5px;
+}
+.header .nav .cai.close span:nth-child(3){
+    transform: rotate(-45deg);
+    top: -5px;
+}
+.language{
+    position: absolute;
+    width: 100%;
+    height: 187px;
+    background: rgba(255,255,255,.5);
+    top: 100%;
+    left: 0%;
+    padding-left: 80px;
+    display: none;
+}
+.language span{
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 47px;
+    display: block;
+    margin-top: 43px;
+}
+.language .p a{
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #484848;
+    margin-right: 244px;
+    transition: 0.6s;
+}
+.language .p a:hover{
+    color: #EA5404;
+}
+.section{
+    background-size: cover;
+    position: relative;
+}
+section{
+    position: relative;
+}
+section.sec1 .span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 2s;
+    font-size: 44px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 40px;
+    z-index: 10;
+}
+section.sec1 .span span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 50px;
+    transition: 1s;
+    position: relative;
+    left: 50px;
+    opacity: 0;
+    filter: blur(100px);
+    letter-spacing: 5px;
+}
+.foot{
+    width: 100%;
+    height: 660px;
+    background-position-y: -135px;
+    overflow: hidden;
+}
+.foot .foont-warp{
+    width: 1622px;
+    height: auto;
+    margin: auto;
+}
+.foot .foont-warp .top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 118px;
+    margin-bottom: 40px;
+}
+.foot .foont-warp .top .left .img img{
+    width: 175px;
+    height: 42px;
+}
+.foot .foont-warp .top .left .img{
+    margin-bottom: 76px;
+}
+.foot .foont-warp .top .left .item{
+    margin-bottom: 41px;
+}
+.foot .foont-warp .top .left .item p{
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #2F2F2F;
+}
+.foot .foont-warp .top .left .item span{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #2F2F2F;
+}
+.foot .foont-warp .top .left .item span.cheng{
+    font-size: 23px;
+    font-weight: bold;
+    color: #EA5504;
+}
+.foot .foont-warp .top .right ul{
+    display: flex;
+}
+.foot .foont-warp .top .right ul li{
+    margin-left: 91px;
+}
+.foot .foont-warp .top .right ul li>a{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #565656;
+    display: block;
+    margin-bottom: 39px;
+}
+.foot .foont-warp .top .right ul .more{
+    display: flex;
+    flex-direction: column;
+}
+.foot .foont-warp .top .right ul .more a{
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #565656;
+    line-height: 30px;
+}
+.foot .foont-warp .top .right ul li a{
+    transition: 0.6s;
+}
+.foot .foont-warp .top .right ul li a:hover{
+    color: #EA5404;
+}
+.foot .foont-warp .t-b{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 27px;
+}
+.foot .foont-warp .t-b .item{
+    text-align: center;
+    margin-left: 10px;
+    width: 70px;
+    height: 156px;
+}
+.foot .foont-warp .t-b .item i{
+    color: #B4B4B4;
+    transition: 1s;
+}
+.foot .foont-warp .t-b .item .cir{
+    width: 35px;
+    height: 35px;
+    background: #E9E7E7;
+    border-radius: 50%;
+    transition: 1s;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    margin:20px auto 5px;
+}
+.foot .foont-warp .t-b .item .cir:hover{
+    background: #EA5504;
+}
+.foot .foont-warp .t-b .item .cir:hover i{
+    color: white;
+}
+.foot .foont-warp .t-b .item span{
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #414141;
+    /*opacity: 0;*/
+    transition: 1s;
+}
+.foot .foont-warp .t-b .item .erweima{
+    width: 70px;
+    height: 75px;
+    background: #FFFFFF;
+    box-shadow: 4px 11px 120px 0px rgba(44, 44, 44, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.foot .foont-warp .t-b .item .erweima img{
+    width: 61px;
+    height: auto;
+}
+.foot .foont-warp .bottom{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.08);
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot .foont-warp .bottom a{
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #414141;
+}

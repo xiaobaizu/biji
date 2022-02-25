@@ -1,0 +1,167 @@
+.sec1{
+    width: 100%;
+    background-size: cover;
+}
+.sec1 .img{
+    width: 100%;
+    overflow: hidden;
+}
+.sec1 img {
+    width: 100%;
+    transition: 3s;
+}
+.span1 span{
+    font-size: 15px!important;
+    font-family: Source Han Sans CN;
+    font-weight: 400!important;
+    color: #FFFFFF!important;
+    letter-spacing: 2px!important;
+}
+.span1{
+    top: 56% !important;
+}
+
+
+.sec2{
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../images/contact-1.jpg");
+    background-size: cover;
+}
+.sec2 .sec2-warp{
+    width: 1600px;
+    height: auto;
+    margin: 170px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2 .sec2-warp .left{
+    width: 630px;
+    height: auto;
+}
+.sec2 .sec2-warp .left .top span{
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #333333;
+    position: relative;
+    display: block;
+    padding-bottom: 26px;
+    margin-bottom: 18px;
+}
+.sec2 .sec2-warp .left .top p{
+    font-size: 14px;
+    font-family: Nexa Text-Trial;
+    font-weight: 400;
+    color: #666666;
+}
+.sec2 .sec2-warp .left .top span:after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 95px;
+    height: 1px;
+    background: #EA5404;
+}
+.sec2 .sec2-warp .left form{
+    margin-top: 100px;
+}
+.sec2 .sec2-warp .left form input[ type ="text"]{
+    width: 630px;
+    height: 77px;
+    background: #F8F8F8;
+    border: 0px;
+
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+    text-indent: 18px;
+    margin-bottom: 23px;
+}
+.sec2 .sec2-warp .left form textarea{
+    width: 630px;
+    height: 164px;
+    background: #F8F8F8;
+    text-indent: 18px;
+    padding-top: 26px;
+
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+    border: 0px;
+}
+.sec2 .sec2-warp .left form input[ type ="submit"]{
+    width: 623px;
+    height: 74px;
+    background: #EA5404;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 74px;
+    border: 0px;
+
+    font-size: 18px;
+    font-family: Nexa Text-Trial;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 34px;
+}
+.sec2 .sec2-warp .right{
+    width: 689px;
+    height: 735px;
+    margin-right: 72px;
+    position: relative;
+}
+#allmap{
+    width: 100%;
+    height: 100%;
+}
+.anchorBL,.BMap_cpyCtrl{
+    display: none!important;
+}
+.chen{
+    position: absolute;
+    top: -56px;
+    right: -72px;
+    width: 271px;
+    height: 576px;
+    background: #EA5404;
+}
+.sec2-bo{
+    width: 1600px;
+    height: 146px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 160px;
+}
+.sec2-bo .item{
+    width: 439px;
+    height: 146px;
+    background: #F8F8F8;
+}
+.sec2-bo .item .item-warp{
+    margin: 32px 20px;
+    display: flex;
+    align-items: center;
+}
+.sec2-bo .item .item-warp .text{
+    margin-left: 24px;
+}
+.sec2-bo .item .item-warp .text span{
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+}
+.sec2-bo .item .item-warp .text p{
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 20px;
+    line-height: 26px;
+}

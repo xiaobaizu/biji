@@ -1,0 +1,319 @@
+.sec1{
+    width: 100%;
+    background-size: cover;
+}
+.sec1 .img{
+    width: 100%;
+    overflow: hidden;
+}
+.sec1 img{
+    width: 100%;
+    transition: 3s;
+    transform: scale(1.1);
+}
+.sec1 .nav{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+
+    width: 1200px;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 33px 7px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99999999;
+}
+.sec1 .nav .left{
+    margin-left: 39px;
+    width: 130px;
+    border-right: 1px solid rgba(198, 198, 198, .22);
+}
+.sec1 .nav .right{
+    /*margin-right: 61px;*/
+    display: flex;
+    width: 860px;
+    justify-content: center;
+    padding-right: 170px;
+}
+.sec1 .nav .right a{
+    display: block;
+    margin-left: 80px;
+    display: block;
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+}
+.sec1 .nav .right a.sel{
+    color: #EA5404;
+}
+.sec1 .nav .right a:hover{
+    color: #EA5404;
+}
+.sec1 .nav a{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.6s;
+
+}
+.sec1 .nav a:hover,.sec1 .nav a:hover i{
+    color: #EA5404;
+}
+.sec1 .nav a i{
+    font-size: 24px;
+    margin-right: 20px;
+    transition: 0.6s;
+}
+
+.sec2{
+    width: 100%;
+    height: 965px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sec2 .top{
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+.sec2 .top .item{
+    width: 160px;
+    height: 39px;
+    border: 1px solid #EA5404;
+    border-radius: 20px;
+    position: revert;
+    text-align: center;
+    line-height: 39px;
+    transition: 0.6s;
+    margin-right: 116px;
+    cursor: pointer;
+}
+.sec2 .top .item span{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.6s;
+}
+.sec2 .top .img{
+    cursor: pointer;
+}
+.sec2 .top .item.sel{
+    background: #EA5404;
+}.sec2 .top .item.sel span{
+     color: white;
+ }
+.sec2 .top .item:hover{
+    background: #EA5404;
+}
+.sec2 .top .item:hover span{
+    color: white;
+}
+.sec2 .top .flx{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-58%,15px);
+    width: 812px;
+    height: 282px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: none;
+}
+.sec2 .top .flx .fix1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sec2 .top .flx .fix1 .flxa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec2 .top .flx .fix1 .flxa a{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.6s;
+    display: block;
+    height: 60px;
+    line-height: 40px;
+}
+.sec2 .top .flx .fix1 .flxa a:hover{
+    color: #EA5404;
+}
+.sec2 .top .flx .fix1 .flxa a.sel{
+    color: #EA5404;
+}
+.sec2 .sec2-sw{
+    width: 100%;
+    margin-top: 39px;
+}
+.sec2 .swiper{
+    width: 100%;
+    height: 720px;
+}
+.sec2 .swiper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2 .swiper .swiper-slide .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1s;
+}
+.sec2 .swiper .swiper-slide .item span{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    transition: 1s;
+}
+.sec2 .swiper .swiper-slide .item p{
+    font-size: 16px;
+    font-family: Nexa Text-Trial;
+    font-weight: 400;
+    color: #3C3C3C;
+    margin-top: 18px;
+    transition: 1s;
+   opacity: 0;
+}
+.sec2 .swiper .swiper-slide-active .item{
+    transform: scale(1.1);
+}
+.sec2 .swiper .swiper-slide-active .item p{
+    opacity: 1;
+}
+.sec2 .swiper .swiper-slide-active .item span{
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #000000;
+}
+.sec3{
+    overflow: hidden;
+}
+.sec3-warp{
+    margin: 98px auto 80px;
+    width: 1655px;
+}
+.sec3-warp>p{
+    width: 1539px;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #000000;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 152px;
+}
+.sec3-warp .sec3-div{
+    width: 100%;
+}
+.sec3-warp .sec3-div .top{
+    text-align: center;
+    width: 100%;
+}
+.sec3-warp .sec3-div .top span{
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #000000;
+}
+.sec3-warp .sec3-div .top p{
+    font-size: 16px;
+    font-family: Nexa Text-Trial;
+    font-weight: 400;
+    color: #3C3C3C;
+    margin-top: 18px;
+}
+.sec3-warp .sec3-div .middle{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 72px;
+}
+.sec3-warp .sec3-div .middle .item{
+    cursor: pointer;
+    position: relative;
+    transition: 0.6s;
+    margin-right: 130px;
+    margin-bottom: 100px;
+}
+.sec3-warp .sec3-div .middle .item:nth-child(3n){
+    margin-right: 0px;
+}
+.sec3-warp .sec3-div .middle .img{
+    width: 458px;
+    height: 386px;
+}
+.sec3-warp .sec3-div .middle .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec3-warp .sec3-div .middle .item .text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    opacity: 0;
+}
+.sec3-warp .sec3-div .middle .item .text p{
+    margin-bottom: 36px;
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.sec3-warp .sec3-div .middle .item .text a{
+    display: block;
+    width: 95px;
+    height: 24px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+
+    font-size: 12px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
+}
+.sec3-warp .sec3-div .middle .big{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    background: rgba(234, 84, 4, 0);
+}
+.sec3-warp .sec3-div .middle .item:hover .big{
+    background: rgba(234, 84, 4, .8);
+}
+.sec3-warp .sec3-div .middle .item:hover .text{
+    opacity: 1;
+    top: 50%;
+}
