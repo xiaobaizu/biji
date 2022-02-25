@@ -1,0 +1,151 @@
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.sec2{
+    width: 94%;
+    margin: auto;
+    margin-top: 100px;
+}
+.sec2-warp{
+    width: 504px;
+    display: flex;
+    border-bottom: 2px solid #D2D2D2;
+}
+.sec2-warp a{
+    text-align: center;
+    padding: 16px 0px;
+    display: block;
+    width: 168px;
+    font-size: 24px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #787878;
+    position: relative;
+}
+.sec2-warp a:after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0%;
+    height: 4px;
+    left: 0;
+
+    background: #00913A;
+    transition: 0.6s;
+    transform: translate(-50%,0%);
+    margin-left: 50%;
+}
+.sec2-warp a:hover:after{
+    width: 100%!important;
+}
+.sel{
+    color: #00913A!important;
+}
+.sel:after{
+    width: 100%!important;
+}
+.sec3{
+    width: 794px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.sec3 span{
+    font-size: 32px;
+    font-family: SourceHanSansCN-Bold;
+    font-weight: bold;
+    color: #00913A;
+    display: block;
+    margin-top: 98px;
+    margin-bottom: 52px;
+}
+.sec3 p{
+    font-size: 18px;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #929292;
+}
+.sec4{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 53px;
+}
+.sec4 p{
+    font-size: 20px;
+    font-family: AlibabaPuHuiTiR;
+    font-weight: 400;
+    color: #797979;
+    line-height: 36px;
+}
+.sec5{
+    width: 100%;
+}
+.sec5-warp{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.sec5-warp img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.sec6{
+    width: 90%;
+    margin: auto;
+    margin-top: 102px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    border-top: 2px solid #E5E5E5;
+    padding-top: 74px;
+}
+.prev a{
+    display: flex;
+    margin-bottom: 30px;
+}
+.ps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+    transform-origin: center center;
+    transform: rotate(90deg);
+}
+.prev a p{
+    margin-right: 22px;
+    font-size: 24px;
+    font-family: AlibabaPuHuiTiR;
+    font-weight: 400;
+    color: #929292;
+}
+.next a{
+    display: flex;
+    align-items: center;
+}
+.nx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+    transform-origin: center center;
+    transform: rotate(90deg);
+}
+.next a p{
+    margin-right: 22px;
+    font-size: 24px;
+    font-family: AlibabaPuHuiTiR;
+    font-weight: 400;
+    color: #929292;
+}
+.prev a p:nth-child(3),.next a p:nth-child(3){
+    font-size: 24px;
+    font-family: AlibabaPuHuiTiR;
+    font-weight: 400;
+    color: #616161;
+}
