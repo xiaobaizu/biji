@@ -1,0 +1,245 @@
+.banner{
+	width: 100%;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	transition: 5s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scale(1.3);
+}
+.tu-text{
+	position: absolute;	
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.tu-text p{
+	font-size: 18px;
+	font-family: SourceHanSansSC-Light;
+	font-weight: 300;
+	color: #FFFFFF;
+	opacity: 0.3;
+}
+.tu-text span{
+	font-size: 26px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.banner1{
+	width: 1200px;
+	margin: auto;
+	height: auto;
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+.banner-left{
+	width: 250px;
+	height: auto;
+}
+.banner-left-b1{
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+.banner-left-b1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.banner-left-b2{
+	width: 100%;
+	height: 100px;
+}
+.banner-left-b2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.banner-left-tetx{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-left-tetx span{
+	font-size: 26px;
+	font-family: SourceHanSansCN-Bold;
+	color: #FFFFFF;
+	margin-right: 83px;
+}
+.banner-left-tetx img{
+	width: 20px;
+	height: 20px;
+}
+.left-tt{
+	width: 100%;
+	height: auto;
+}
+.left-tt-1{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.left-tt-1 span{
+	margin-left: 29px;
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #000000;
+	transition: 0.6s;
+}
+.left-tt-1 img{
+	margin-right: 16px;
+}
+
+.banner1 .left-tt a:hover span{
+	color: #00328B;
+}
+
+.banner-right{
+	width: 900px;
+	height: auto;
+	margin-bottom: 90px;
+}
+.banner-right-top{
+	margin-top: 20px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #E6E6E6;
+}
+.banner-right-top span{
+	font-size: 22px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #000000;
+}
+.miaob{
+	display: flex;
+}
+.miaob p,.miaob a{
+	font-size: 12px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #666666;
+	transition: 0.6s;
+}
+.miaob a:hover{
+	color: #00328B;
+}
+
+.banner-ba{
+	width: 100%;
+	height: auto;
+	margin-top: 31px;
+	display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-content: space-around;
+}
+.banner-ba-1{
+	width: 419px;
+	height: auto;
+	margin-bottom: 50px;
+}
+.ba-1-top{
+	width: 100%;
+	height: 38px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #E6E6E6;
+}
+.ba-1-top span{
+	font-size: 18px;
+	font-family: SourceHanSansSC-Bold;
+	color: #00328B;
+}
+.banner-ba-1 a{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.banner-ba-1 a span{
+	width: 80%;
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #000000;
+	transition: 0.6s;
+}
+.banner-ba-1 a p{
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #999999;
+	transition: 0.6s;
+}
+.a{
+	width: 100%;
+	height: auto;
+	margin-top: 23px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.banner-ba-1 a:hover span{
+	color: #00328B;
+}
+.banner-ba-1 a:hover p{
+	color: #00328B;
+}
+
+
+.sousuo{
+	width: 100%;
+	height: 36px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 21px;
+}
+.sousuo input{
+	width: 820px;
+	height: 34px;
+	background: #F5F5F5;
+	border: 1px solid #E6E6E6;
+	
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #999999;
+	text-indent: 15px;
+}
+.sousuo a{
+	transition: 0.6s;
+	display: block;
+	width: 70px;
+	height: 36px;
+	background: #B29F69;
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 36px;
+}
+.sousuo a:hover{
+	/* color: #00328B; */
+	background-color: #666666;
+}
