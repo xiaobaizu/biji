@@ -1,0 +1,86 @@
+{
+  "id": "3023440",
+  "name": "富田",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15370",
+      "name": "左三角形",
+      "font_class": "zuosanjiaoxing",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "577389",
+      "name": "坐标-fill",
+      "font_class": "zuobiaofill",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "3874020",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5387910",
+      "name": "箭头_列表向右_o",
+      "font_class": "jiantou_liebiaoxiangyou_o",
+      "unicode": "eb8a",
+      "unicode_decimal": 60298
+    },
+    {
+      "icon_id": "5387927",
+      "name": "箭头_切换左_o",
+      "font_class": "jiantou_qiehuanzuo_o",
+      "unicode": "eb90",
+      "unicode_decimal": 60304
+    },
+    {
+      "icon_id": "6301283",
+      "name": "创新",
+      "font_class": "chuangxin",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "6337455",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "ec7f",
+      "unicode_decimal": 60543
+    },
+    {
+      "icon_id": "7775068",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "12184883",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "13000504",
+      "name": "放大镜",
+      "font_class": "fangdajing1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "13636959",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}

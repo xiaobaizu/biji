@@ -1,0 +1,625 @@
+.section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: cubic-bezier(.77,0,.175,1) transform 2s;
+}
+.section .span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.sec1-warp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 79px;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+.sec1-warp .mao{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.sec1-warp .mao .dian{
+    width: 5px;
+    height: 5px;
+    background: #FFFFFF;
+    margin-right: 15px;
+}
+.sec1-warp .mao span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sec1-warp .mao:hover{
+    background: #014F99;
+}
+.section2{
+    width: 100%;
+}
+.sec2-warp{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.sec2-warp .sec2-top P{
+    text-transform: uppercase;
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: normal;
+    color: #014F99;
+    margin-top: 82px;
+}
+.sec2-warp .sec2-top span{
+    text-align: center;
+    display: block;
+
+    font-size: 32px;
+    font-weight: bold;
+    color: #014F99;
+    margin-bottom: 128px;
+}
+.sec2-warp .sec2-bo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 137px;
+}
+.sec2-warp .sec2-bo .sec2-le span{
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+}
+.sec2-warp .sec2-bo .sec2-le p{
+    width: 774px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 32px;
+}
+.sec2-warp .sec2-bo .sec2-le .line{
+    width: 100%;
+    height: 1px;
+    background: #E6E6E6;
+    position: relative;
+    margin: 28px 0px;
+}
+.sec2-warp .sec2-bo .sec2-le .line:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 1px;
+    background: #014F99;
+}
+.sec2-warp .sec2-bo .sec2-ri{
+    width: 720px;
+    height: 440px;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.section3>img{
+    width: 100%;
+    height: auto;
+}
+.sec3-warp{
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.sec3-warp .sec3-top{
+    text-align: center;
+    margin-bottom: 85px;
+}
+.sec3-warp .sec3-top p{
+    font-size: 30px;
+    font-weight: normal;
+    color: #014F99;
+    margin-top: 101px;
+    text-transform: uppercase;
+}
+.sec3-warp .sec3-top span{
+    font-size: 32px;
+    font-weight: bold;
+    color: #014F99;
+}
+.sec3-warp .sec3-bo{
+    width: 100%;
+    height: auto;
+}
+.sec3-warp .sec3-bo .swiper{
+    width: 100%;
+    height: auto;
+}
+.sec3-swimg{
+    width: 720px;
+    height: 400px;
+}
+.sec3-swimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec3-warp .sec3-bo .swiper-slide{
+    display: flex;
+}
+.swiper-slide .sec2-swtext{
+    margin-left: 80px;
+}
+.swiper-slide .sec2-swtext span{
+    font-size: 80px;
+    font-weight: normal;
+    color: #014F99;
+    margin-bottom: 37px;
+    margin-top: 70px;
+    display: block;
+}
+.swiper-slide .sec2-swtext p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.section3 .prog{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+.section3 .prog:after{
+    content: "";
+    position: absolute;
+    top: 32.5px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+}
+.section3 .prog .sec3-cir{
+    width: 25px;
+    height: 25px;
+    background: rgba(1, 79, 153, 0);
+    border: 2px solid #014F99;
+    opacity: 0.4;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: 0.6s;
+    position: relative;
+    cursor: pointer;
+}
+.section3 .prog .sec3-cir:after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #014F99;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 0.6s;
+}
+.section3 .prog .swiper{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.section3 .prog .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.section3 .prog .swiper-slide p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #666666;
+}
+.section3 .prog .swiper-slide-active .sec3-cir{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.section3 .prog .swiper-slide-active .sec3-cir:after{
+    opacity: 1;
+}
+.section4{
+    position: relative;
+}
+.section4>img{
+    width: 100%;
+    height: auto;
+}
+.sec4-warp{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    height: 100%;
+}
+.sec4-warp .sec4-top{
+    text-align: center;
+}
+.sec4-warp .sec4-top p{
+    font-size: 30px;
+    font-weight: normal;
+    color: #014F99;
+    text-transform: uppercase;
+    margin-top: 109px;
+}
+.sec4-warp .sec4-top span{
+    font-size: 32px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #014F99;
+}
+.yr{
+    width: 520px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+}
+.yr .sy,.yr .sr{
+    width: 260px;
+    height: auto;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: 0.6s;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.yr .yes{
+    border-bottom: 1px solid #125BA0;
+    color: #125BA0;
+}
+.sec4-cir{
+    width: 946px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.sec4-cir .scir-yong{
+    transition: 0.6s;
+}
+.sec4-cir .scir-yong .yong1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.6s;
+    transform: translate(0%,20px);
+    opacity: 0;
+}
+.sec4-cir .scir-yong .yong1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: 0.6s;
+}
+.sec4-cir .scir-yong .yong1 i{
+    font-size: 31px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.sec4-cir .scir-yong .yong1:nth-child(1){
+    top: 29%;
+    left: 18%;
+}
+.sec4-cir .scir-yong .yong1:nth-child(2){
+    top: 60%;
+    left: 41%;
+}
+.sec4-cir .scir-yong .yong1:nth-child(3){
+    top: 29%;
+    left: 66%;
+}
+.sec4-cir .true-yong .yong1{
+    opacity: 1;
+    transform: translate(0%,0px);
+}
+.section5{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.section5>img{
+    width: 100%;
+    height: 950px;
+}
+.section5 .sec5-warp{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 0;
+}
+.sec5-warp .sec5-top{
+    text-align: center;
+}
+.sec5-warp .sec5-top p{
+    font-size: 30px;
+    font-weight: normal;
+    color: #014F99;
+    text-transform: uppercase;
+    margin-top: 109px;
+}
+.sec5-warp .sec5-top span{
+    font-size: 32px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #014F99;
+}
+.sec5-bo{
+    margin-top: 80px;
+}
+.sec5-bo .sli-1{
+    width: 370px;
+    height: 350px;
+    background: #FFFFFF;
+}
+.sec5-bo .sli-1 .sli-warp{
+    width: 90%;
+    margin: auto;
+
+}
+.sec5-bo .sli-1 .sli-warp a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec5-bo .sli-1 .sli-warp .sli-img{
+    width: 274px;
+    height: 192px;
+    margin-top: 49px;
+    margin-bottom: 37px;
+    overflow: hidden;
+}
+.sec5-bo .sli-1 .sli-warp .sli-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 2s;
+}
+.sec5-bo .sli-1 .sli-warp .after{
+    width: 100%;
+    height: 1px;
+    background: #E6E6E6;
+    margin-bottom: 20px;
+    position: relative;
+}
+.sec5-bo .sli-1 .sli-warp .after .befor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    background: #014F99;
+    height: 1px;
+    transition: 0.6s;
+}
+.sec5-bo .sli-1 .sli-warp .sli-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec5-bo .sli-1 .sli-warp .sli-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.sec5-bo .sli-1 .sli-warp .sli-text i{
+    color: #CCCCCC;
+}
+.sec5-bo .sli-1 .sli-warp a:hover .after .befor{
+    width: 100%;
+}
+.sec5-bo .sli-1 .sli-warp a:hover .sli-img img{
+    transform: scale(1.1);
+}
+.section5 .np{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+.section5 .np .prev,.section5 .np .next{
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+    margin-right: 26px;
+    cursor: pointer;
+}
+.section5 .np .next {
+    transform: rotateY(180deg);
+}
+.section5 .np .prev i,.section5 .np .next i{
+    font-size: 30px;
+    color: #999999;
+    transition: 0.6s;
+}
+.section5 .np .prev:hover,.section5 .np .next:hover{
+    background: #014F99;
+}
+.section5 .np .prev:hover i,.section5 .np .next:hover i{
+    color: white;
+}
+.section6{
+    width: 100%;
+    height: auto;
+}
+.sec6-warp{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.sec6-warp .sec6-top{
+    text-align: center;
+    margin-top: 203px;
+    margin-bottom: 54px;
+}
+.sec6-warp .sec6-top p{
+    font-size: 30px;
+    font-weight: normal;
+    color: #014F99;
+    text-transform: uppercase;
+}
+.section6 .swiper{
+    margin-bottom: 291px;
+}
+.section6 .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec6-warp .sec6-top span{
+    font-size: 32px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #014F99;
+}
+.section6 .sec6-sli{
+    width: 440px;
+    height: 300px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section6 .sec6-sli img{
+    width: 304px;
+    height: 222px;
+}
+.section6 .swiper-slide p{
+    text-align: center;
+    display: none;
+    margin-top: 30px;
+}
+.swiper-3d .swiper-slide-shadow-right,.swiper-3d .swiper-slide-shadow-left{
+    background-image:inherit;
+}
+.section6 .swiper-slide-active p{
+    display: block;
+}
+.section7{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.section7>img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.section7 .sec7-warp{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.section7 .sec7-warp .sec7-1{
+    width: 33.3333333%;
+    height: 100%;
+}
+.section7 .sec7-top{
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+.section7 .sec7-top p{
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+.section7 .sec7-top span{
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 128px;
+}
+.section7  .sec7-warp .sec7-1{
+    position: relative;
+    cursor: pointer;
+}
+.section7  .sec7-warp .sec7-1 span{
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+.section7  .sec7-warp .sec7-1 p{
+    position: absolute;
+    width: 431px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 32px;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 1s;
+}
+.section7  .sec7-warp .sec7-1:hover span{
+    top: 40%;
+}
+.section7  .sec7-warp .sec7-1:hover p{
+    top: 50%;
+    opacity: 1;
+}

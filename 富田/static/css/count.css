@@ -1,0 +1,29 @@
+@charset "utf-8";
+*{ box-sizing:border-box; -webkit-appearance: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-touch-callout: none;}
+*:focus { outline: none; }
+html {  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100%;}
+body { margin: 0;font-size:14px;line-height:1.5;font-family:"微软雅黑",microsoft yahei; color:#333; background:#fff; }
+body, div, span, object, iframe, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, caption, tbody, tfoot, thead, article, aside, dialog, figure, footer, header, hgroup, nav, section{ padding:0; margin:0;}
+ul,li{ list-style: none;}
+img {  border: 0;vertical-align: middle; max-width:100%;}
+.clearfix:after{ content:""; display:block; clear:both; height:0; visibility:hidden;}
+.clearfix{ zoom:1;}
+
+.main{ padding:60px 0; margin: 0 auto; max-width: 1000px;}
+.numCount{ margin: 0 -10px;}
+.numCount li{ float: left; width: 25%; text-align: center;}
+.numCount li .item{ margin: 0 10px;}
+.numCount li .numU{ line-height:1.3;}
+.numCount li .numCX{ font-size:54px; color:#42B983;}
+.numCount li .numU .unitC{font-size:100%; line-height: 1.3; margin-left: 0.3em;}
+.numCount li .numU sup{vertical-align: top;}
+.numCount li .numU sub{vertical-align:baseline;}
+@media (max-width:800px){
+    .numCount li .numCX{ font-size:36px; }
+}
+@media (max-width:640px){
+    .numCount li .numCX{ font-size:7vw; }
+}
+@media (max-width:480px){
+    .numCount{ font-size:0.5vw;}
+}

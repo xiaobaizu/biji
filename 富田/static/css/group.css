@@ -1,0 +1,175 @@
+.section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: cubic-bezier(.77,0,.175,1) transform 2s;
+}
+.section .span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.sec1-warp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 79px;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+.sec1-warp .mao{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.sec1-warp .mao .dian{
+    width: 5px;
+    height: 5px;
+    background: #FFFFFF;
+    margin-right: 15px;
+}
+.sec1-warp .mao span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sec1-warp .mao:hover{
+    background: #014F99;
+}
+.section2{
+    width: 80%;
+    margin:80px auto;
+}
+.section2 .sec2-top{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section2 .sec2-top p{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+    color: #014F99;
+    line-height: 40px;
+}
+.section2 .sec2-top span{
+    font-size: 32px;
+    font-weight: bold;
+    color: #014F99;
+    line-height: 32px;
+}
+.section2 .sec2-ab{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 10px;
+}
+.section2 .sec2-ab .sec2-ab-warp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 278px;
+    transition: 1s;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 41px;
+    padding-bottom: 37px;
+}
+.section2 .sec2-ab .sec2-ab-warp:hover{
+    background: rgba(1, 80, 162, .5);
+    cursor: pointer;
+}
+.section2 .sec2-ab .sec2-ab-warp img{
+    height: 100%;
+    width: auto;
+}
+.section2 .sec2-ab .sec2-ab-warp .js p{
+    width: 700px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 32px;
+    transition: 1s;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.section2 .sec2-ab .sec2-ab-warp .js span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 32px;
+    transition: 1s;
+}
+.section2 .sec2-ab .sec2-ab-warp .js .time{
+    font-size: 16px;
+    font-weight: normal;
+    color: #999999;
+    line-height: 32px;
+    transition: 1s;
+}
+.section2 .sec2-ab .sec2-ab-warp .more{
+    display: flex;
+    align-items: center;
+}
+.section2 .sec2-ab .sec2-ab-warp .more p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+    line-height: 32px;
+    transition: 1s;
+}
+.section2 .sec2-ab .sec2-ab-warp .more i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    transition: 1s;
+    color: #666666;
+}
+.section2 .sec2-ab .sec2-ab-warp:hover .js p,.section2 .sec2-ab .sec2-ab-warp:hover .js span,.section2 .sec2-ab .sec2-ab-warp:hover .more p,.section2 .sec2-ab .sec2-ab-warp:hover .more i{
+    color: white;
+}
+.section2 .page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 58px;
+}
+.section2 .page .cir{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    color: #000;
+}
+.section2 .page .cir.sel{
+    background: #014F99;
+    color: white;
+}
+.section2 .page .cir:hover{
+    background: #014F99;
+    color: white;
+}

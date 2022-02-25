@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    scroll-behavior: smooth;
+}
+#my-scrollbar{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.scrollbar-track-y{
+    background: transparent!important;
+}
+.scrollbar-thumb{
+    background: transparent!important;
+}
+a.anniu{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: rgba(240, 241, 246, 0);
+    border: 1px solid #2D93D5;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    position: relative;
+    transition: 0.6s;
+}
+a.anniu:hover{
+    background: #2D93D5;
+}
+a.anniu:hover i{
+    color: #fff;
+}
+a.anniu:hover:before{
+    color: #fff;
+    transform: translate(0%,20px);
+    opacity: 0;
+}
+a.anniu:hover .par p{
+    color: white;
+    opacity: 1;
+    transform: translate(0%,0%);
+}
+a.anniu .par{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a.anniu .par p{
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #2D93D5;
+    transition: 0.6s;
+    transform: translate(0%,-20px);
+    opacity: 0;
+}
+a.anniu:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    font-size: 14px;
+    color: #2D93D5;
+    display: flex;
+    align-items: center;
+    transition: 1.5s;
+    opacity: 1;
+}
+a.anniu i{
+    font-size: 26px;
+    color: #2D93D5;
+}
+header{
+    width: 100%;
+    padding: 0% 10%!important;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.6s;
+}
+header:after{
+    content: "";
+    position: absolute;
+    top: -110px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #014F99;
+    z-index: 0;
+    transition: 0.6s;
+}
+.active:after{
+    top: 0;
+}
+header .logo{
+    position: relative;
+    z-index: 1;
+}
+header .menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+header .menu .nav{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 85px;
+}
+header .menu .nav a{
+    font-size: 16px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition: 0.6s;
+}
+header .menu .nav a:hover{
+    color: #2D93D5;
+}
+header .menu .search{
+    cursor: pointer;
+}
+header .menu .search i{
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-bottom: 0px solid #fff;
+    transition: 0.6s;
+}
+.search input{
+    display: block;
+    width: 0px;
+    height: 100%;
+    background-color: transparent!important;
+    border: 0;
+    font-size: 0.14rem;
+    line-height: 0.3rem;
+    color: #fff!important;
+    transition: 0.3s;
+    float: left;
+    outline: none;
+    transition: 0.6s;
+}
+input::-webkit-input-placeholder{
+    color: #fff;
+}
+.search:hover{
+    border-bottom: 1px solid #fff;
+}
+.search:hover input{
+    width: 150px;
+}
+footer{
+    width: 100%;
+    height: 660px;
+    background: #393b3d;
+    padding: 0 10%!important;
+}
+.foo_t{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foo_t .left{
+    width: 75%;
+    height: auto;
+}
+.foo_t .left .logo{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.foo_t .left .foo-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 410px;
+    padding: 50px 0px;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+.foo_t .right{
+    width: 25%;
+    height: auto;
+    border-left: 1px solid rgba(255,255,255,.2);
+    text-align: right;
+}
+.foo_t .left .foo-text .foo-text1 span{
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 45px;
+    display: block;
+    transition: 0.6s;
+}
+.foo_t .left .foo-text .foo-text1 span:after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+}
+.foo_t .left .foo-text .foo-text1 ul a li{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.5;
+    line-height: 40px;
+    transition: 0.6s;
+}
+.foo_t .left .foo-text .erweima{
+    width: 90px;
+    height: 90px;
+    margin-right: 200px;
+}
+.foo_t .left .foo-text .erweima img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.foo_t .left .foo-text a:hover span,.foo_t .left .foo-text .foo-text1 ul li:hover{
+    color: #2D93D5;
+}
+.foo_b{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+.foo_b a{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.foo_b a:hover{
+    color:#2D93D5;
+}
+.foo_t .right .swiper-slide>span{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    margin-top: 100px;
+}
+.foo_t .right .right-p{
+    margin: 20px 0px;
+}
+.foo_t .right .right-p p{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.5;
+
+}
+.foo_t .right .right-p span{
+    display: block;
+    font-size: 26px;
+    color: #fff;
+    opacity: 0.5;
+    margin: 20px 0px;
+}
+.foo_t .right .san{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.foo_t .right .san i{
+    font-size: 26px;
+    color: rgba(255,255,255,.5);
+    cursor: pointer;
+}
+.foo_t .right .san i:nth-child(1){
+    transform: rotateY(180deg);
+}
+.foo_t .right .san-shu{
+    height: 16px;
+    width: 1px;
+    background: rgba(255,255,255,.5);
+}
+.san .swiper-button-lock{
+    display: block;
+}
+
+.section .span {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+    transition: 2s;
+    font-size: 44px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 40px;
+    z-index: 10;
+}
+.section .span span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 50px;
+
+    transition: 1s;
+    position: relative;
+    left: 50px;
+    opacity: 0;
+    filter: blur(100px);
+    letter-spacing: 5px;
+}
+
+.sec1-warp .que{
+    background: #014F99;
+}
