@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+</head>
+<body>
+    <div class="big">
+        <div class="left">
+            <div class="top">
+                <a href="../index.html">
+                    <span>
+                        技术资料
+                    </span>
+                </a>
+            </div>
+            <div class="zhengwen">
+                <ul>
+                    <li>
+                        <span class="sel">
+                            <i class="iconfont icon-iconfont20"></i>css
+                        </span>
+                        <div class="nei active">
+                            <a href="css-1.html" >
+                                圆圈加载
+                            </a>
+                            <a href="css-2.html" class="ac-sl">
+                                字体隐藏
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="iconfont icon-iconfont20"></i>swiper
+                        </span>
+                        <div class="nei ">
+                            <a href="../swiper/swiper-1.html" >
+                                swiper初始化
+                            </a>
+                            <a href="../swiper/swiper-2.html">
+                                swiper自动轮播
+                            </a>
+                            <a href="../swiper/swiper-3.html">
+                                切换slide时执行
+                            </a>
+                            <a href="../swiper/swiper-4.html">
+                                swiper自定义分页器
+                            </a>
+                            <a href="../swiper/swiper-5.html">
+                                走马灯(无缝轮播)
+                            </a>
+                            <a href="../swiper/swiper-6.html">
+                                根据分辨率调整
+                            </a>
+                            <a href="../swiper/swiper-7.html">
+                                轮播样式(异形轮播)
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="">
+                            <i class="iconfont icon-iconfont20"></i>fullPage
+                        </span>
+                        <div class="nei">
+                            <a href="../fullPage/fullPage-1.html">
+                                初始化
+                            </a>
+                            <a href="../fullPage/fullPage-2.html">
+                                计数器
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="iconfont icon-iconfont20"></i>插件
+                        </span>
+                        <div class="nei">
+                            <a href="../plugin/plugin-1.html">
+                                证书放大效果
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="">
+                            <i class="iconfont icon-iconfont20"></i>项目
+                        </span>
+                        <div class="nei">
+                            <a target="_blank" href="../保险箱/index.html">
+                                保险箱
+                            </a>
+                            <a target="_blank" href="../品冠物联/index.html">
+                                品冠
+                            </a>
+                            <a target="_blank" href="../富田/index.html">
+                                富田
+                            </a>
+                            <a target="_blank" href="../易斯/index.html">
+                                易斯
+                            </a>
+                            <a target="_blank" href="../永新/index.html">
+                                永新
+                            </a>
+                            <a target="_blank" href="../泰丰/index.html">
+                                泰丰
+                            </a>
+                            <a target="_blank" href="../润金/index.html">
+                                润金
+                            </a>
+                            <a target="_blank" href="../瑞工/index.html">
+                                瑞工
+                            </a>
+                            <a target="_blank" href="../碧农/index.html">
+                                碧农
+                            </a>
+                            <a target="_blank" href="../科星/index.html">
+                                科星
+                            </a>
+                            <a target="_blank" href="../蔚壹/index.html">
+                                蔚壹
+                            </a>
+                            <a target="_blank" href="../蜗牛/index.html">
+                                蜗牛
+                            </a>
+                            <a target="_blank" href="../途迈/index.html">
+                                途迈
+                            </a>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="right">
+            <h3>概述</h3>
+            <div class="text">
+                <p>字体超出隐藏</p>
+            </div>
+            <h3>示例</h3>
+            <h5>HTML 代码:</h5>
+            <pre class="brush:xml style_html">&lt;p&gt;Hello, are you having a good time over there?&lt;/p&gt;</pre>
+            <h5>css 代码:</h5>
+            <pre class="css">
+p {
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+            </pre>
+            <h5>如果想要限制行数</h5>
+            <pre class="css">
+p {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+            </pre>
+            <h5>效果展示</h5>
+            <div class="p1">
+                <p>
+                    这是一行隐藏效果（这是隐藏的内容）
+                </p>
+            </div>
+            <div class="p2">
+                <p>
+                    这是两行隐藏效果（这是隐藏的内容）
+                </p>
+            </div>
+            <style>
+                .p1,.p2{
+                    width: 100%;
+                    height: 100px;
+                    background: #999fa8;
+                    margin-bottom: 20px;
+                    overflow: hidden;
+                }
+                .p1 p{
+                    margin: 10px;
+                    padding: 10px;
+                    font-size: 14px;
+                    width: 126px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .p2 p{
+                    margin: 10px;
+                    width: 120px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    -webkit-line-clamp: 2;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            </style>
+        </div>
+    </div>
+</body>
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/index.js"></script>
+</html>

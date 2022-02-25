@@ -1,0 +1,23 @@
+{
+  "id": "3172357",
+  "name": "自己",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1228",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1163163",
+      "name": "iconfont-20",
+      "font_class": "iconfont20",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}

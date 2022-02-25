@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+</head>
+<body>
+    <div class="big">
+        <div class="left">
+            <div class="top">
+                <a href="../index.html">
+                    <span>
+                        技术资料
+                    </span>
+                </a>
+            </div>
+            <div class="zhengwen">
+                <ul>
+                    <li>
+                        <span class="sel">
+                            <i class="iconfont icon-iconfont20"></i>css
+                        </span>
+                        <div class="nei active">
+                            <a href="css-1.html" class="ac-sl">
+                                圆圈加载
+                            </a>
+                            <a href="css-2.html">
+                                字体隐藏
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="iconfont icon-iconfont20"></i>swiper
+                        </span>
+                        <div class="nei ">
+                            <a href="../swiper/swiper-1.html" >
+                                swiper初始化
+                            </a>
+                            <a href="../swiper/swiper-2.html">
+                                swiper自动轮播
+                            </a>
+                            <a href="../swiper/swiper-3.html">
+                                切换slide时执行
+                            </a>
+                            <a href="../swiper/swiper-4.html">
+                                swiper自定义分页器
+                            </a>
+                            <a href="../swiper/swiper-5.html">
+                                走马灯(无缝轮播)
+                            </a>
+                            <a href="../swiper/swiper-6.html">
+                                根据分辨率调整
+                            </a>
+                            <a href="../swiper/swiper-7.html">
+                                轮播样式(异形轮播)
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="">
+                            <i class="iconfont icon-iconfont20"></i>fullPage
+                        </span>
+                        <div class="nei">
+                            <a href="../fullPage/fullPage-1.html">
+                                初始化
+                            </a>
+                            <a href="../fullPage/fullPage-2.html">
+                                计数器
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="iconfont icon-iconfont20"></i>插件
+                        </span>
+                        <div class="nei">
+                            <a href="../plugin/plugin-1.html">
+                                证书放大效果
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="">
+                            <i class="iconfont icon-iconfont20"></i>项目
+                        </span>
+                        <div class="nei">
+                            <a target="_blank" href="../保险箱/index.html">
+                                保险箱
+                            </a>
+                            <a target="_blank" href="../品冠物联/index.html">
+                                品冠
+                            </a>
+                            <a target="_blank" href="../富田/index.html">
+                                富田
+                            </a>
+                            <a target="_blank" href="../易斯/index.html">
+                                易斯
+                            </a>
+                            <a target="_blank" href="../永新/index.html">
+                                永新
+                            </a>
+                            <a target="_blank" href="../泰丰/index.html">
+                                泰丰
+                            </a>
+                            <a target="_blank" href="../润金/index.html">
+                                润金
+                            </a>
+                            <a target="_blank" href="../瑞工/index.html">
+                                瑞工
+                            </a>
+                            <a target="_blank" href="../碧农/index.html">
+                                碧农
+                            </a>
+                            <a target="_blank" href="../科星/index.html">
+                                科星
+                            </a>
+                            <a target="_blank" href="../蔚壹/index.html">
+                                蔚壹
+                            </a>
+                            <a target="_blank" href="../蜗牛/index.html">
+                                蜗牛
+                            </a>
+                            <a target="_blank" href="../途迈/index.html">
+                                途迈
+                            </a>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="right">
+            <h3>概述</h3>
+            <div class="text">
+                <p>圆圈加载的效果</p>
+            </div>
+            <h3>示例</h3>
+            <h5>HTML 代码:</h5>
+            <pre class="html">
+&lt;svg viewBox="0 0 54 54"&gt;
+    &lt;path class="path-loop-bg" d="M27,5 A22,22 0 1,1 5,27 A22,22 0 0,1 27,5">&lt;/path&gt;
+    &lt;path class="path-loop" d="M27,5 A22,22 0 1,1 5,27 A22,22 0 0,1 27,5" stroke-dasharray="157"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+            </pre>
+            <h5>css 代码:</h5>
+            <pre class="css">
+.path-loop-bg{
+    fill: none;
+    stroke: transparent;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+.path-loop{
+    stroke-dashoffset: 157px;
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    transition: 0.6s;
+    animation: rotateIn 0.6s linear forwards;
+}
+@keyframes rotateIn {
+    0% {
+        stroke-dashoffset: 157px;
+    }
+    100% {
+        stroke-dashoffset: 19px;
+    }
+}
+            </pre>
+            <h5>效果展示</h5>
+            <div style="width: 200px;height:200px;background: black">
+                <svg viewBox="0 0 54 54">
+                    <path class="path-loop-bg" d="M27,5 A22,22 0 1,1 5,27 A22,22 0 0,1 27,5"></path>
+                    <path class="path-loop" d="M27,5 A22,22 0 1,1 5,27 A22,22 0 0,1 27,5" stroke-dasharray="157"></path>
+                </svg>
+            </div>
+            <style>
+                .path-loop-bg{
+                    fill: none;
+                    stroke: transparent;
+                    stroke-miterlimit: 10;
+                    stroke-width: 2px;
+                }
+                .path-loop{
+                    stroke-dashoffset: 157px;
+                    fill: none;
+                    stroke: #fff;
+                    stroke-miterlimit: 10;
+                    stroke-width: 2px;
+                    transition: 0.6s;
+                    animation: rotateIn 10s linear forwards;
+                }
+                @keyframes rotateIn {
+                    0% {
+                        stroke-dashoffset: 157px;
+                    }
+                    100% {
+                        stroke-dashoffset: 19px;
+                    }
+                }
+            </style>
+        </div>
+    </div>
+</body>
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/index.js"></script>
+</html>

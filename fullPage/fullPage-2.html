@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+    <link rel="stylesheet" href="../static/css/fancybox.css">
+</head>
+<body>
+    <div class="big">
+        <div class="left">
+            <div class="top">
+                <a href="../index.html">
+                    <span>
+                        技术资料
+                    </span>
+                </a>
+            </div>
+            <div class="zhengwen">
+                <ul>
+                    <li>
+                        <span >
+                            <i class="iconfont icon-iconfont20"></i>css
+                        </span>
+                        <div class="nei ">
+                            <a href="../css/css-1.html" >
+                                圆圈加载
+                            </a>
+                            <a href="../css/css-2.html">
+                                字体隐藏
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="iconfont icon-iconfont20"></i>swiper
+                        </span>
+                        <div class="nei">
+                            <a href="../swiper/swiper-1.html">
+                                swiper初始化
+                            </a>
+                            <a href="../swiper/swiper-2.html">
+                                swiper自动轮播
+                            </a>
+                            <a href="../swiper/swiper-3.html">
+                                切换slide时执行
+                            </a>
+                            <a href="../swiper/swiper-4.html">
+                                swiper自定义分页器
+                            </a>
+                            <a href="../swiper/swiper-5.html">
+                                走马灯(无缝轮播)
+                            </a>
+                            <a href="../swiper/swiper-6.html">
+                                根据分辨率调整
+                            </a>
+                            <a href="../swiper/swiper-7.html">
+                                轮播样式(异形轮播)
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="sel">
+                            <i class="iconfont icon-iconfont20"></i>fullPage
+                        </span>
+                        <div class="nei active">
+                            <a href="fullPage-1.html" >
+                                初始化
+                            </a>
+                            <a href="fullPage-2.html" class="ac-sl">
+                                计数器
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="iconfont icon-iconfont20"></i>插件
+                        </span>
+                        <div class="nei">
+                            <a href="../plugin/plugin-1.html">
+                                证书放大效果
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="">
+                            <i class="iconfont icon-iconfont20"></i>项目
+                        </span>
+                        <div class="nei">
+                            <a target="_blank" href="../保险箱/index.html">
+                                保险箱
+                            </a>
+                            <a target="_blank" href="../品冠物联/index.html">
+                                品冠
+                            </a>
+                            <a target="_blank" href="../富田/index.html">
+                                富田
+                            </a>
+                            <a target="_blank" href="../易斯/index.html">
+                                易斯
+                            </a>
+                            <a target="_blank" href="../永新/index.html">
+                                永新
+                            </a>
+                            <a target="_blank" href="../泰丰/index.html">
+                                泰丰
+                            </a>
+                            <a target="_blank" href="../润金/index.html">
+                                润金
+                            </a>
+                            <a target="_blank" href="../瑞工/index.html">
+                                瑞工
+                            </a>
+                            <a target="_blank" href="../碧农/index.html">
+                                碧农
+                            </a>
+                            <a target="_blank" href="../科星/index.html">
+                                科星
+                            </a>
+                            <a target="_blank" href="../蔚壹/index.html">
+                                蔚壹
+                            </a>
+                            <a target="_blank" href="../蜗牛/index.html">
+                                蜗牛
+                            </a>
+                            <a target="_blank" href="../途迈/index.html">
+                                途迈
+                            </a>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="right">
+            <h3>概述</h3>
+            <div class="text">
+                <p>全屏滚动效果中数字技术效果</p>
+            </div>
+            <h3>示例</h3>
+            <h5>根据你的文件位置来链接插件所需要的文件</h5>
+            <pre class="html">
+&lt;script src="count.js"&gt;&lt;/script&gt;</pre>
+            <h5>HTML 代码:</h5>
+            <pre class="html">
+&lt;span class="count-item" data-speed="1200" data-to="7" data-separator=","&gt;7&lt;/span&gt;
+            </pre>
+            <h5>JS 代码:</h5>
+            <pre class="jquery">
+ onLeave: function (section, origin, destination, direction) {
+    setTimeout(function () {
+        $(".count-item").each(function (t, e) {
+            let o = $(e),
+                _from = o.data('from'),
+                _to = o.data('to');
+            new CountUp(o, _from, _to, 1, 2).start();
+        })
+    }, 500);
+},
+            </pre>
+            <div class="btn">
+                <a href="../static/js/count.js">点击查看js文件</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/index.js"></script>
+<script src="../static/js/fancybox.js"></script>
+</html>
